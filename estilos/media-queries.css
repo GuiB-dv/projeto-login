@@ -25,7 +25,9 @@ Extra large screens, TV – 1201px, and more.
     }
     
     section#login > div#formulario {
-
+        float: right;
+        width: 60%;
+        margin-right: 12px;
     }
 }
 
@@ -47,6 +49,9 @@ Extra large screens, TV – 1201px, and more.
     }
     
     section#login > div#formulario {
-
+        float: right;
+        width: 50%;
+        margin-right: 16px;
     }
+
 }
