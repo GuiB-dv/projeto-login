@@ -49,10 +49,11 @@ div.campo > label {
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    color: #3b899c;
 }
 
 #formulario > p{
+    margin-bottom: 10px;
     font-size: 0.8em;
 }
 
@@ -81,9 +82,23 @@ form > input[type=submit]:hover{
 
 form > a.botao{
     display: block;
-    text-align: center;
     font-size: 1em;
     width: 100%;
     height: 40px;
+    color: #2b84d8;
+}
 
+span {
+    color: #ffffff;
+    float: left;
+    padding-top: 7px;
+    padding: 7px ;
+}
+
+div.campo > input{
+    transform: translateY(4px);
+    border: 0px;
+    height: 80%;
+    border-radius: 5px;
+    width: calc(100% - 50px);
 }
